@@ -493,15 +493,6 @@ W3C предлагает [Markup Validation Service](https://validator.w3.org/) 
     </article>
     ```
 
-
-
-
-
-
-
-
-
-
 ## Практическое задание
 
 [Открыть](practice/README.md)
