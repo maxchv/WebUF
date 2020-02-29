@@ -369,7 +369,7 @@ W3C предлагает [Markup Validation Service](https://validator.w3.org/) 
     * &lt;p> ... &lt;/p>
 
 2. Паша написал следующий код HTML, но браузер не показал никакого текста. Почему?
-    &lt!-- &ltp>Тетрис&lt/p> -->
+    &lt;!-- &lt;p>Тетрис&lt;/p> -->
 
     * Не хватает атрибута title.
     * Это комментарий и он не отображается в браузере
@@ -390,7 +390,7 @@ W3C предлагает [Markup Validation Service](https://validator.w3.org/) 
     * &lt;p>
     * &lt;/p>
 
-5. Назовите составляющие строки (тер, атрибут, ссылка):
+5. Назовите составляющие строки (тег, атрибут, ссылка):
 
     ```html
     <a href='http://itstep.dp.ua'>ItStep Dnipro</a>
@@ -493,6 +493,10 @@ W3C предлагает [Markup Validation Service](https://validator.w3.org/) 
     </article>
     ```
 
+## Тест
+
+[Пройти тест](https://forms.gle/8Nz5NE5HBVrhpx9V6)
+
 ## Практическое задание
 
 [Открыть](practice/README.md)
@@ -506,5 +510,5 @@ W3C предлагает [Markup Validation Service](https://validator.w3.org/) 
 1. [Введение в HTML](https://developer.mozilla.org/ru/docs/Learn/HTML/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5_%D0%B2_HTML)
 2. [Основы HTML](https://webref.ru/course/html-basics)
 3. [HTML Tutorial](https://www.w3schools.com/html/)
-4. [HTML Living Standard ](https://html.spec.whatwg.org/multipage/)
+4. [HTML Living Standard](https://html.spec.whatwg.org/multipage/)
 5. [HTML 5.3 W3C Working Draft](https://www.w3.org/TR/2018/WD-html53-20181018/)

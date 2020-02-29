@@ -1,0 +1,53 @@
+span
+{
+	display: inline-block; 
+	margin: 8px; 
+	box-shadow: 1px 2px 2px grey; 
+}
+
+body {
+ 	background-color: white;
+	padding: 30px;
+	max-width: 350px;
+	margin: auto;
+}
+
+.newspaper {
+	
+}
+
+.magazine1  {
+ 	
+}
+
+.magazine2 {
+	
+}
+
+.medium {
+	
+}
+
+.big {
+	
+}
+
+.reallybig {
+	
+}
+
+.rotateleft {
+	
+}
+
+.rotateright {
+	
+}
+
+.skewleft {
+	
+}
+
+.skewright {
+	
+}
