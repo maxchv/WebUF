@@ -20,6 +20,7 @@
 
 ## Ссылки
 
-1. [Основы CSS](https://webref.ru/course/css-basics)
+1. [Блочная модель](https://webref.ru/course/box-model)
+1. [Блочная модель](https://html5book.ru/css-blochnaya-model/)
 2. [Руководство по CSS](https://developer.mozilla.org/ru/docs/Web/CSS/Reference)
 3. [CSS Tutorial](https://www.w3schools.com/css/default.asp)
