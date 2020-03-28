@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        #flag {
+            left: 0;
+            position: absolute;
+            width: 300px;
+            height: 150px;
+            background: linear-gradient(blue, blue 50%, yellow 50%, yellow 100%);
+        }
+    </style>
+
+    <script>
+        // alert("Привет JavaScript");
+        // let iLoveCats = confirm("Ты любишь кошек?");
+        // if (iLoveCats) {
+        //     alert("А я люблю собак:)");
+        // }
+        //let year = prompt("Сколько тебе лет?");
+        window.addEventListener("load", function () {
+            const flag = document.getElementById("flag");
+            // alert(flag);
+            flag.style.position = "absolute";
+            flag.style.width = "200px";
+            flag.style.left = "200px";
+
+            // обработчик события клавиатуры
+            window.addEventListener("keydown", function (e) {
+                console.log(e.code);
+
+                switch (e.code) {
+                    case "ArrowLeft":
+                        flag.style.left = (parseInt(flag.style.left) - 10) + "px";
+                        break;
+                    case "ArrowRight":
+                        flag.style.left = (parseInt(flag.style.left) + 10) + "px";
+                        break;
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div id="flag"></div>
+</body>
+
+</html>
