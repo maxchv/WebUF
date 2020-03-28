@@ -8,7 +8,7 @@
 
 ## Тест
 
-[Пройти тест]()
+[Пройти тест](https://forms.gle/Y49wCm3LQ4rWKVxq9)
 
 ## Практическое задание
 
@@ -21,6 +21,6 @@
 ## Ссылки
 
 1. [Блочная модель](https://webref.ru/course/box-model)
-1. [Блочная модель](https://html5book.ru/css-blochnaya-model/)
-2. [Руководство по CSS](https://developer.mozilla.org/ru/docs/Web/CSS/Reference)
-3. [CSS Tutorial](https://www.w3schools.com/css/default.asp)
+2. [Блочная модель](https://html5book.ru/css-blochnaya-model/)
+3. [Руководство по CSS](https://developer.mozilla.org/ru/docs/Web/CSS/Reference)
+4. [CSS Tutorial](https://www.w3schools.com/css/default.asp)
