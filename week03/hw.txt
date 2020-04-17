@@ -1,5 +1,0 @@
-video: https://youtu.be/zQOPadlzMjM
-
-Домашнее задание: https://github.com/maxchv/WebUF/blob/master/week03/homework/README.md
-
-Теоретический материал: https://github.com/maxchv/WebUF/blob/master/week03/README.md
