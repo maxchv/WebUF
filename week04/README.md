@@ -165,7 +165,7 @@ window.addEventListener('load', function () { // когда документ з�
 
 ## Тест
 
-[Пройти тест]()
+[Пройти тест](https://forms.gle/57EPvj5peA46xZGc9)
 
 ## Практическое задание
 
@@ -175,7 +175,7 @@ window.addEventListener('load', function () { // когда документ з�
 
 [Открыть](homework/README.md)
 
-# Ссылки
+## Ссылки
 
 1. [MDN: линейный градиент](https://developer.mozilla.org/uk/docs/Web/CSS/linear-gradient)
 2. [MDN: радиальный градиент](https://developer.mozilla.org/uk/docs/Web/CSS/radial-gradient)
