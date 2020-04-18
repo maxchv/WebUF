@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            font-family: cursive;
+            text-indent: 24px;
+            text-align: justify;
+            font-size: 18px;
+        }
+
+        p::first-letter {
+            font-size: 50px;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; font-family: cursive;">Сценарий игры</h1>
+    <p id="first">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita vel optio, nesciunt ipsam
+        accusantium
+        vitae repellendus modi perferendis animi ipsum quidem molestiae iure obcaecati tempora rerum dolore voluptatem
+        at.</p>
+    <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora eum voluptates odio laudantium
+        consequatur
+        debitis et nihil modi aliquid perspiciatis dolorum, sequi quidem similique. Dolorem ipsum rerum mollitia aliquam
+        consectetur.</p>
+
+    <p id="secret"> Секретное сообщение: через 10 секунд будет уничтожено</p>
+    <img src="https://lh3.googleusercontent.com/yAtZnNL-9Eb5VYSsCaOC7KAsOVIJcY8mpKa0MoF-0HCL6b0OrFcBizURHywpuip-D6Y"
+        alt="" width="100%" />
+
+    <div>
+        Расписание:
+        <ol>
+            <li>Почистить зубы</li>
+            <li>Завтрак</li>
+            <li>Занятия в онлайн школе</li>
+            <li>Обед</li>
+            <li>Домашние задания</li>
+            <li>Ужин</li>
+            <li>Игры</li>
+            <li>Прогулка на балконе</li>
+            <li>Сон</li>
+        </ol>
+    </div>
+
+    <script>
+        let h1 = document.querySelector("h1");
+        // alert(h1.innerHTML);
+        let firstParagraph = document.getElementById("first");
+        firstParagraph.style.color = "green";
+
+        let secondParagraph = document.querySelector("#second");
+        secondParagraph.style.color = "blue";
+
+        let secretParagraph = document.querySelector("#secret");
+        setTimeout(function () {
+            secretParagraph.hidden = "hidden"; // <p hidden="hidden">
+
+            const csGoImage =
+                "https://static-prod.weplay.tv/2019-09-12/ecf6f6505687109089cdc3a66aaee24b_large_cover.jpeg";
+            // Найти img элемент
+            let img = document.querySelector("img");
+            img.src = csGoImage;
+        }, 5000);
+        // 
+
+        setTimeout(function () {
+            let ol = document.querySelector("ol");
+            ol.parentElement.style.border = "5px inset black";
+            console.log("parentElement", ol.parentElement);
+            console.log("children", ol.children);
+            for (let child of ol.children) {
+                child.innerHTML = "Домашнее  задание";
+            }
+            console.log("fistElementChild", ol.firstElementChild);
+            ol.firstElementChild.innerHTML = "Игра";
+            console.log("lastElementChild", ol.lastElementChild);
+            ol.lastElementChild.innerHTML = "Доктор Кто";
+        }, 3000);
+    </script>
+</body>
+
+</html>
