@@ -1,0 +1,7 @@
+video: https://web.microsoftstream.com/video/70cee44a-dbc8-4e9e-a2cf-9ea1af79f49d
+
+код с занятия: https://github.com/maxchv/WebUF/blob/master/week05/demo/index.html
+
+Домашнее задание: https://maxchv.github.io/WebUF/week05/homework/
+
+Теоретический материал: https://maxchv.github.io/WebUF/week05/
