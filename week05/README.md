@@ -422,4 +422,4 @@ after
 
 1. [DOM-дерево](https://learn.javascript.ru/dom-nodes)
 2. [Live DOM Viewer](http://software.hixie.ch/utilities/js/live-dom-viewe)
-2. [Навигация по DOM-элементам](https://learn.javascript.ru/dom-navigation)
+3. [Навигация по DOM-элементам](https://learn.javascript.ru/dom-navigation)
