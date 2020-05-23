@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Манипулирование DOM</title>
+
+    <style>
+        p {
+            color: blue;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div>
+        <input id="task" /><button>Add</button>
+    </div>
+    <ol></ol>
+    <script>
+        // найти кнопку
+        const button = document.querySelector("button");
+        // найти список
+        const ol = document.querySelector("ol");
+        // найти поле ввода
+        const input = document.getElementById("task");
+        // при нажатии на кнопку
+        button.addEventListener("click", function () {
+            console.log(input.value);
+            // создать новый элемент списка
+            let li = document.createElement("li");
+            // создать текст
+            let text = document.createTextNode(input.value);
+            // добавить текст в элемент li списка
+            li.append(text);
+
+            // создать кнопку
+            let button = document.createElement("button");
+            button.append(document.createTextNode("Удалить"));
+            button.addEventListener("click", function () {
+                li.remove();
+            });
+            li.append(button);
+
+            // добавить li в
+            //ol.append(li);
+            ol.prepend(li);
+        })
+    </script>
+</body>
+
+</html>
