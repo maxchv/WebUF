@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fifteen</title>
+    <style>
+        :root {
+            --primary-color: #673AB7;
+            --primary-dark-color: #512DA8;
+            --secondary-color: #2196F3;
+        }
+
+        * {
+            font-family: cursive;
+            font-size: 1.2em;
+        }
+
+        .board {
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 100px 100px 100px 100px;
+            row-gap: 5px;
+            column-gap: 5px;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .cell {
+            box-sizing: border-box;
+            /* cursor: pointer; */
+            border-radius: 10px;
+            line-height: 100px;
+            text-align: center;
+            box-shadow: gray 5px 5px 5px;
+            background: url(img/background.jpg);
+        }
+
+        button {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            width: 150px;
+            height: 75px;
+            border-radius: 25px;
+            background: gray;
+            border: 1px outset indigo;
+            color: white;
+            box-shadow: gray 5px 5px 5px;
+        }
+
+        button:hover {
+            background: indigo;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="run"><button title="Press to start game">Start</button></div>
+    <div class="board">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -204,4 +204,4 @@ after
 
 ## Ссылки
 
-1. []()
+1. [Манипуляции с DOM на чистом JavaScript](https://tproger.ru/translations/dom-javascript/)
