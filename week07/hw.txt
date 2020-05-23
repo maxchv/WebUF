@@ -1,0 +1,5 @@
+video: https://web.microsoftstream.com/video/6294c57d-e32c-49ca-9b7f-0285bd9128db
+
+Домашнее задание: https://maxchv.github.io/WebUF/week07/homework/
+
+Теоретический материал: https://maxchv.github.io/WebUF/week07/
