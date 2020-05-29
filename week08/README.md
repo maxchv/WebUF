@@ -8,7 +8,7 @@
 
 * `click` – происходит, когда кликнули на элемент левой кнопкой мыши.
 * `contextmenu` – происходит, когда кликнули на элемент правой кнопкой мыши.
-* `mouseover` / `mouseou`t` – когда мышь наводится на / покидает элемент.
+* `mouseover` / `mouseout` – когда мышь наводится на / покидает элемент.
 * `mousedown` / `mouseup` – когда нажали / отжали кнопку мыши на элементе.
 * `mousemove` – при движении мыши.
 
@@ -163,4 +163,5 @@ element.removeEventListener(event, handler[, options]);
 
 ## Ссылки
 
-1. [Манипуляции с DOM на чистом JavaScript](https://tproger.ru/translations/dom-javascript/)
+1. [Введение в события](https://learn.javascript.ru/events)
+2. [HTML DOM События](https://html5css.ru/jsref/dom_obj_event.php)
